@@ -168,14 +168,34 @@ An interactive power bi dashboard used to report and explore trends can be found
 - Incomplete time periods were excluded from trend analysis.
 - Geographic naming standardization applied to resolve
 
----
+### Limitations & Constraints
 
+- **Single Company Context**: Analysis uses Adventure Works data; findings may not generalize to other industries, company sizes, or business models
+- **Simulated Dataset**: This is Microsoft's sample database, not real production data; results are for demonstration purposes only
+- **Time Period Limitation**: Analysis covers 2024–2025; seasonal patterns and market conditions may vary in different periods
+- **Simplified Profit Calculation**: Profit excludes tax, freight, and other operational costs; actual profitability may differ
+- **No External Validation**: Insights have not been validated against real business outcomes or market conditions
+- **Geographic Scope**: Limited to US and Australia markets; expansion recommendations require additional market research
+
+---
 ## 🛠️ Tools Used
 
 - **SQL** – Data validation, transformation, and analysis  
 - **Power BI** – Interactive dashboards and executive reporting  
 
 ---
+
+## 🤖 AI Workflow
+
+AI tools were used strategically throughout this analysis to enhance efficiency while maintaining analytical rigor:
+
+- **Query Development**: Used AI to draft initial SQL validation queries and data quality checks, then manually optimized for Adventure Works schema
+- **DAX Measures**: AI assisted in writing Power BI DAX calculations for revenue concentration metrics and margin analysis
+- **Narrative Structure**: AI helped organize technical findings into executive-level insights and recommendations
+- **Validation**: All AI-generated outputs were manually verified against the data to ensure accuracy and business relevance
+
+---
+
 ## Appendix
 
 The companies main database structure as seen below consists of Seven tables: FactInternetSales, DimProduct ,DimProductCategory,DimProductSubCategory,DimCustomers,DimGeography,DimDates, with a total row count of 60,398 records.
